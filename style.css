@@ -176,7 +176,7 @@
 .education{
     background:rgb(211, 95, 53);
 }
-.education .title{
+.title{
     position: relative;
     width: 40%;
     margin: auto;
@@ -207,7 +207,7 @@
     background: white;
     transform: translateX(-50%);
 } */
-.education .edu-content{
+.certies .certi-content , .education .edu-content{
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -223,7 +223,7 @@
     border-radius: 10px;
     margin-top: 30px;
 }
-.box{
+.education .edu-content .box{
     padding: 40px;
     width:269px;
     height:119px;
@@ -233,11 +233,93 @@
     border-radius:10px;
     transition: all 0.7s ease-in-out;
 }
-.box:hover{
+.education .edu-content .box:hover{
     transform: scale(1.2);
 }
 
+/* ---------------SKILLS-------------- */
+.skills .ski-content{
+    align-content: center;
+    justify-content: space-between;
+    margin: 2em;
+}
+.ski-content .col .bars{
+    margin-bottom: 10px;
+}
+.ski-content .col .info{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.ski-content span{
+    font-weight: bold;
+}
+.line{
+    height: 5px;
+    border-radius: 5px;
+    width: 100%;
+    background: lightgray;
+}
+.line::before{
+    content:"";
+    position: absolute;
+    height: 5px;
+    width: 90%; 
+    border-radius: 5px;
+    background: crimson;
+}
+.col .css::before{
+    width: 70%;
+}
+.col .js::before{
+    width: 50%;
+}
+.col .bootstrap::before{
+    width: 80%;
+}
+.col .dsa::before{
+    width: 70%;
+}
+.col .cpp::before{
+    width: 80%;
+}
+.col .python::before{
+    width: 80%;
+}
+.col .ml::before{
+    width: 40%; 
+}
 
+
+.certies{
+    background-color: cornsilk;
+}
+.certies .certi-content .ecard{
+    background: pink;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: auto;
+    margin: 50px 20px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.certies .certi-content .box{
+    padding: 15px 5px;
+    width:239px;
+    height:68px;
+    border: solid 1px #555;
+    box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+    border-radius:10px;
+    transition: all 0.7s ease-in-out;
+}
+.certies .certi-content .box:hover{
+    transform: scale(1.2);
+}
+/* ---------------CONTACT------------- */
 .con-content{
     background-color: black;
     padding: 10px;
