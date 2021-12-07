@@ -174,7 +174,7 @@
 
 /* -------------EDUCATION----------- */
 .education{
-    background:rgb(211, 95, 53);
+    background: whitesmoke;
 }
 .title{
     position: relative;
@@ -257,6 +257,7 @@
 .line{
     height: 5px;
     border-radius: 5px;
+    /* width: calc(100% - 2em); */
     width: 100%;
     background: lightgray;
 }
@@ -264,9 +265,14 @@
     content:"";
     position: absolute;
     height: 5px;
-    width: 90%; 
+    /* width: calc(50% - 2em); */
+    width: 50%; 
+    /* left: 0; */
     border-radius: 5px;
     background: crimson;
+}
+.col .html::before{
+    /* width: 90%; */
 }
 .col .css::before{
     width: 70%;
@@ -290,7 +296,7 @@
     width: 40%; 
 }
 
-
+/*-------------- CERTIFICATE----------- */
 .certies{
     background-color: cornsilk;
 }
@@ -319,6 +325,7 @@
 .certies .certi-content .box:hover{
     transform: scale(1.2);
 }
+
 /* ---------------CONTACT------------- */
 .con-content{
     background-color: black;
@@ -338,6 +345,7 @@
     padding: 10px;
 }
 
+
 /* responsive media query */
 @media (max-width: 990px ){
     .max-width{
@@ -355,7 +363,7 @@
         position: fixed;
         height: 70vh;
         width: 100%;
-        background: linear-gradient(black,rgb(21, 21, 66),rgb(12, 12, 117),rgb(73, 73, 238));
+        background: linear-gradient(black,rgb(102 180 227),rgb(107 167 219),rgb(189 235 249));
         left: -100%;
         top: 0;
         text-align: center;
