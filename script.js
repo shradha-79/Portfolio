@@ -5,3 +5,11 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 });
+
+// typing anuimation
+var typed  = new Typed(".typing", {
+    strings: ["coder"],
+    typedSpeed: 100,
+    backSpeed: 60,
+    loop: true,
+});
