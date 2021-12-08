@@ -272,7 +272,7 @@
     background: crimson;
 }
 .col .html::before{
-    /* width: 90%; */
+    width: 90%;
 }
 .col .css::before{
     width: 70%;
