@@ -14,3 +14,13 @@ var typed  = new Typed(".typing", {
     loop: true,
 });
 
+function takevalue()
+{
+    var name=document.getElementById("name").ariaValueMax;
+    var email=document.getElementById("email").ariaValueMax;
+    var msg=document.getElementById("msg").ariaValueMax;
+    document.write("NAME: "+name);
+    document.write("EMAIL: "+email);
+    document.write("MSG: "+msg);
+}
+
