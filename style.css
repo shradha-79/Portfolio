@@ -440,7 +440,8 @@
   flex-shrink: 0;
   overflow: hidden;
   border-radius: 20px;
-  box-shadow: 2px 3px 15px rgba(252,56,56,.1);
+  /* box-shadow: 2px 3px 15px rgba(252,56,56,.1); */
+  box-shadow: 2px 3px 15px rgb(210 175 237);
   /* box-shadow: 1px 3px 10px rgb(189, 185, 186); */
 }
 /* #imgTap:checked ~ .inner-part .img{
