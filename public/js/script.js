@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 // typing anuimation
 var typed  = new Typed(".typing", {
-    strings: ["coder","student"],
+    strings: ["Coder","Fresher"],
     typedSpeed: 100,
     backSpeed: 60,
     loop: true,
